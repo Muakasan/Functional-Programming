@@ -32,7 +32,7 @@ def main():
 	print(reduce(lambda a, x: a + x, l))
 	
 	print("The max of the list:")
-	print([])
+	print(0)
 
 	print("The list where each element is multiplied by 2 using YOUR map:")
 	print(myMap(lambda x: 2*x, l))
