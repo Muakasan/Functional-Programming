@@ -1,5 +1,6 @@
 #Aidan San
 #muakasan@gmail.com
+#https://github.com/Muakasan/Functional-Programming
 
 from itertools import *
 
