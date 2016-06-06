@@ -10,10 +10,7 @@ public class LambdaLessonShell
 {
 	public static boolean isPrime(int n)
 	{
-		return n!=1 && Stream.iterate(2, x -> x+1)
-				.limit(n-2)
-				.map(x -> n%x != 0)
-				.reduce(true, (a, x) -> x && a);
+		return true;
 	}
 
 	public static void printS(Stream s)
